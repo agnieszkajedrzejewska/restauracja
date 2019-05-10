@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>SPA One Life </title>
+        <link rel="stylesheet" type="text/css" href="css/app_restauracja.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Portfolio - Agnieszka Jaskuła">
+        <meta name="keywords" content="portfolio, cv, programowanie, front-end">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css"><!--fontello-->
+        <link rel="shortcut icon" type="image/png" href="img/logo.png">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <!--Animate On Scroll Library-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <style>
+        .header-container {
+            -webkit-background-image: url(img/restauracje1.jpg);
+            -moz-background-image: url(img/restauracje1.jpg);
+            background-image: url(img/restauracje1.jpg);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -webkit-background-position: center;
+            -moz-background-position: center;
+            background-position: center;
+            -webkit-background-repeat: no-repeat; 
+            -moz-background-repeat: no-repeat; 
+            background-repeat: no-repeat; 
+            width: 100%;
+            height: 300px;
+            background-attachment: fixed;
+            display: table; }
+        /*----------------------------------------------------scroll-up----------------------------------*/
+        #to-top {
+           z-index: 10000; }
+
+        #to-top i {
+            color: #fff;
+            margin: 0;
+            position: fixed;
+            z-index: 100000000;
+            bottom: 20px;
+            right: 20px;
+            font-size: 19px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+        
+        #to-top:hover i {
+            color: #454a67;
+            cursor: pointer; }
+
+        /*RWD*/
+         @media screen and (max-width: 700px) {
+            #to-top i {
+                bottom: 10px;
+                right: 0px; }
+        }
+
+        @media screen and (min-width: 738px) and (max-width: 1000px){
+            .header-container {
+                height: 400px; }
+        }
+
+        @media screen and (min-width: 1000px) {
+            .header-container {
+                height: 400px; }
+        }
+        </style>
+    </head>
+    <body>
+         <main>
+         <p class="logo"><a href="../home/index.html">Spa One Life</a></p>
+
+         <!---------------------------------------------------NAV----------------------------------------------------------->
+         <nav class="nav nav-main-first navbar navbar-expand-md navbar-light">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Pokaż lub ukryj nawigację"><span class="navbar-toggler-icon"></span></button>
+              <div class="nav-main collapse navbar-collapse" id="mainNavigation">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="../onas/index.html">O nas</a></li>
+                        <li class="menu-dropdown nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Oferta</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../dladuszy/index.html">"Dla duszy"</a>
+                                <a class="dropdown-item" href="../dlaciala/index.html">"Dla ciała"</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link " href="../hotel/index.html">Hotel</a>
+                        <li class="nav-item"><a class="nav-link" href="../restauracja/index.html">Restauracja</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../contact/index.html">Kontakt</a></li>  
+                    </ul>
+            </div>
+        </nav>
+
+         <!------------------------------------------------HEADER-------------------------------------------------------->
+        <header>
+            <div class="header-container">
+                <h1>Restauracja</h1>
+            </div>
+        </header>
+    </main>
+
+    <!---------------------------------------------SECTION#1----------------------------------------------------------->
+   <div class="container-fluid">
+        <a href="javascript:" id="to-top"><i class="icon-up-open"></i></a>  <!--DO PRZEWIJANIA-->
+        <h2 class="main-header">Menu</h2>
+        <p class="main-paragraph">Curabitur vulputate pulvinar ex, ut fermentum justo facilisis at. In hac habitasse platea dictumst. Nulla facilisi. Suspendisse potenti. Maecenas laoreet quis nisi ac bibendum.</p>
+
+        <h3 class="header-tree">Przystawki</h3>
+        <div class="row-first row">
+            <div class="col-section1 col-md-5">
+                <div class="food-section1">
+                    <h5>Tatar z polędwicy wołowej</h5>
+                    <p>żółtko jaja przepiórczego / anchois / kawior / pikle / pieczywo</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Roladki z grillowanego bakłażana</h5>
+                    <p>zapiekane z serem mozzarella / gorący sos pomidorowy</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Pierogi z kaczką</h5>
+                    <p>maliny/ seler nać / sałata rzymska / ser wędzony/ boczek wędzony</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Spring rolls</h5>
+                    <p>marchewka / masło orzechowe / kiełki / krwetki królewskie</p>
+                </div>
+        
+            </div>
+
+            <div class="col-img col-md-6">
+                <img class="img-section1" src="img/snap.jpg" alt="Kanapki - przystawki" >
+            </div>
+        </div>
+
+         
+         <h3 class="header-tree">Śniadania</h3>
+        <div class="row-first row">
+            <div class="col-section1 col-md-5">
+                <div class="food-section1">
+                    <h5>Owsianka</h5>
+                    <p>owoce/ mleko/ miód</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Jajecznica</h5>
+                    <p>3 jajka / szczypirek / cebula / chleb</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Tosty</h5>
+                    <p>owoce / masło / jajko</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Croissant </h5>
+                    <p>serek pleśniowy / konfitura żurawinowa / masło</p>
+                </div>
+            </div>
+
+
+            <div class="col-img col-md-6" >
+                <img class="img-section1" src="img/śniadanie.jpg" alt="Śniadania - owsianka">
+            </div>
+        </div>
+
+         <h3 class="header-tree">Dania główne</h3>
+        <div class="row-first row">
+            <div class="col-section1 col-md-5">
+                <div class="food-section1">
+                    <h5>Stek z antrykotu</h5>
+                    <p>boczniak królewski / puree truflowe / zielony pieprz / demi glace</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Tagliatelle z kozim serem</h5>
+                    <p>czosnek / chilli / szalotka / szpinak</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Sałatka z granatem</h5>
+                    <p>granat / kurczak / szpinak / musztarda</p>
+                </div>
+
+                <div class="food-section1">
+                    <h5>Sałatka nicejska</h5>
+                    <p>jajko / sałata / tuńczyk / anchois / oliwki</p>
+                </div>
+            </div>
+
+            <div class="col-img col-md-6">
+                <img class="img-section1" src="img/obiad.jpg" alt="Danie główne - stek">
+            </div>
+        </div>
+
+         <h3 class="header-tree">Deser</h3>
+        <div class="row-first row">
+            <div class="col-section1 col-md-5">
+                <div class="food-section1">
+                <h5>Strudel</h5>
+                <p>jabłko / 2 gałki lodów / toffi</p>
+            </div>
+
+             <div class="food-section1">
+                    <h5>Ciasto truskawkowe</h5>
+                    <p>truskawki / bita śmietana / gałka lodów jeżynowych</p>
+            </div>
+
+                <div class="food-section1">
+                    <h5>Smażone lody</h5>
+                    <p>lody / bita śmietana / polewa czekoladowa</p>
+                </div>
+        </div>
+
+            <div class="col-img col-md-6">
+                <img class="img-section1" src="img/cake.jpg" alt="Deser - ciasto truskawkowe">
+            </div>
+        </div>
+
+   </div>
+    <!---------------------------------------------SECTION#2----------------------------------------------------------->
+    
+    <div class="container-fluid">
+        <h3 class="header-section2"data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+            data-aos-offset="0">Szef kuchni poleca</h3>
+        <div class="row">
+             <div class="col-md-3">
+                <img class="img-section2" src="img/tost.jpg" alt="Tost z owocami" data-aos="fade-up"
+                data-aos-duration="3000">
+                <p class="paragraph-section2">Tost z truskawkami</p>
+            </div>
+
+            <div class="col-md-3">
+                <img class="img-section2" src="img/salatka.jpg" alt="Sałatka z granatem" data-aos="fade-up"
+            data-aos-duration="3000">
+            <p class="paragraph-section2">Sałatka z granatem</p>
+            </div>
+           
+            <div class="col-md-3">
+                <img class="img-section2" src="img/talerz.jpg" alt="Talerz z serami" data-aos="fade-up"
+            data-aos-duration="3000">
+            <p class="paragraph-section2">Talerz przysmaków</p>
+            </div>
+
+            <div class="col-md-3">
+                <img class="img-section2" src="img/makaron.jpg" alt="Makaron" data-aos="fade-up"
+                data-aos-duration="3000">
+                <p class="paragraph-section2">Tagliatelle z kozim serem</p>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------------SOCIALS----------------------------------------------------------->
+
+        <section>
+            <div class="socials container">
+                <div class="row-section2 row">
+                    <div class="col-md-4"></div>
+                        <div class="socials col-md-4">
+                            <a href="https://www.facebook.com/" target="blank"><i class="icon-facebook"></i></a>
+                            <a href="https://www.instagram.com/jaskula.agnieszka/" target="blank"><i class="icon-instagram"></i></a>
+                            <a href="https://pinterest.com/" target="blank"><i class="icon-pinterest"></i></a>
+                            <a href="https://www.behance.net/onboarding/adobe" target="blank"><i class="icon-behance"></i></a>
+                        </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </section>    
+
+         <!-----------------------------------------------FOOTER------------------------------------------------------>
+
+        <footer>
+            <div class="footer-container container-fluid">
+                <div class="row">
+                   <div class="footer-col col-md-3">
+                        <p class="logo"><a href="../home/index.html">Spa One Life</a></p>
+                    </div>
+                    <div class="footer-col col-md-3">
+                        <h4>Kontakt</h4>
+                        <p>tel. 607433723</p>
+                        <p>e-mail: agnieszka.jaskula88@gmail.com</p>
+                    </div>
+
+                    <div class="footer-col col-md-3">
+                        <h4>Adres</h4>
+                        <p>ul.Zefirowa 17/18</p>
+                        <p>53-027 Wrocław</p>
+                        <p>Polska</p>
+                        
+                    </div>
+
+                    <div class="footer-col col-md-3">
+                        <h4>Godziny otwarcia</h4>
+                        <p>Poniedziałek - Niedziela</p>
+                        <p>8:00 - 20:00</p>
+                    </div>
+                </div> <hr>
+                <div class="container">
+                        <p class="text-center">Copyright &copy 2019, All Rights Reserved - Agnieszka Jaskuła</p>
+                </div>   
+            </div>    
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/przewijanie.js" type="text/javascript"></script>
+        <script>
+          AOS.init();
+        
+          
+        </script>
+       
+    </body>
+</html>

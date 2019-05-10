@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  background-color: #fff; }
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  color: #B28488;
+  font-size: 32px;
+  line-height: 55px;
+  text-align: center;
+  width: 200px;
+  padding: 10px 10px;
+  margin: 20px auto; }
+
+.logo a {
+  text-decoration: none;
+  color: #7279A3;
+  font-size: 30px; }
+
+.logo a:hover {
+  text-decoration: none; }
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                   NAV
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.nav {
+  z-index: 2000; }
+
+.nav-main {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  z-index: 1000; }
+
+.nav-main ul {
+  width: 100%; }
+
+.nav-item:hover {
+  background-color: #D7DBE3; }
+/*------------------------------------------------------------------------------------------------------------------------------
+                                                                   HEADER
+------------------------------------------------------------------------------------------------------------------------------*/
+.header-container h1 {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 4px; }
+
+.main-header {
+  padding-bottom: 30px; }
+/*----------------------------------------------------------------------------------------------------------------
+                                                         SECTION#1
+-----------------------------------------------------------------------------------------------------------------*/
+.container {
+  font-family: 'PT Sans', sans-serif; }
+
+.main-header {
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 40px;
+  font-family: 'PT Sans', sans-serif;
+  color: #343956; }
+
+.main-paragraph {
+  padding: 0px 40px; }
+
+.header-tree {
+  text-align: center;
+  text-transform: uppercase;
+  color: #343956;
+  margin: 40px auto; }
+
+.row-first {
+  margin-top: 40px; }
+
+.img-section1 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; }
+
+
+.food-section1 h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  color: #134594; }
+
+.food-section1 p {
+  text-align: center; }
+ 
+.row-first { 
+  margin: 20px; }
+
+/*---------------------------------------------------------------------------------------------------------------------
+                                                                 SECTION#2
+----------------------------------------------------------------------------------------------------------------------*/
+.header-section2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  margin: 60px 0px 40px 0px; }
+
+.img-section2 {
+  width: 100%;
+  height: auto; }
+
+.paragraph-section2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px; 
+  color: #134594; }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 SOCIALS
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.socials {
+  margin: 40px 0px;
+  text-align: center;
+  clear: both; }
+
+.icon-facebook:hover {
+  opacity: .6; }
+
+.icon-instagram:hover {
+  opacity: .6; }
+
+.icon-pinterest:hover {
+  opacity: .6; }
+
+.icon-behance:hover {
+  opacity: .6; }
+
+/*----------------------------------------------------------------------------------------------------------------------------
+                                                      FOOTER
+-----------------------------------------------------------------------------------------------------------------------------*/
+.footer-container {
+  letter-spacing: 1px;
+  color: #343956;
+  font-family: 'PT Sans', sans-serif; }
+
+.footer-container .footer-col {
+  padding: 6px;
+  text-align: center; }
+
+.footer-container .footer-col h4 {
+  font-weight: 600;
+  font-size: 16px; }
+
+.footer-container .footer-col p {
+  font-size: 12px; }
+
+.text-center {
+  font-size: 10px; }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------
+                                                   MEDIA QUERY
+                                                   400-600px
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 400px) and (max-width: 600px){
+  /*----------------------------------------------------Header------------------------------------------------*/
+.imgban .main-header {
+  position: absolute;
+  top: 280px;
+  left: 100px; }
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 PARALLAXA2
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.parallaxa2 h2 {
+  padding-left: 60px; }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 SECTION#1
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.icons {
+  margin: 10px 36px; }
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+                                                              738px - 999px
+----------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 738px) and (max-width: 999px) {
+.logo {
+  float: left;
+  margin-left: 10px; }
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  NAV
+-----------------------------------------------------------------------------------------------------------------------------------------*/   
+.nav-main-first {
+  margin: 4px 0px 60px 20px; }
+
+.nav-main {
+  padding-top: 10px;
+  margin: 10px;
+  color: transparent; }
+
+.nav-main ul li {
+  width: 140px;
+  color: transparent !important; }
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                                                  HEADER
+-------------------------------------------------------------------------------------------------------------------*/ 
+.header-container h1 {
+  padding-top: 76px; }
+
+/*--------------------------------------------------------------------------------------------------------------------
+                                                                 SECTION#1
+----------------------------------------------------------------------------------------------------------------------*/
+.snap {
+  padding-top: 90px; }
+
+.img-section1 {
+  margin-left: 30px; }
+/*----------------------------------------------------------------------------------------------------------------------------------------
+                                                                 SOCIALS
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.socials {
+  background-color: transparent; }
+
+/*----------------------------------------------------------------------------------------------------------------------------
+                                                      FOOTER
+-----------------------------------------------------------------------------------------------------------------------------*/
+.footer-container {
+  letter-spacing: 1px;
+  color: #343956;
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 40px; }
+
+.footer-container .footer-col {
+  padding: 6px;
+  text-align: center;
+  font-size: 12px; }
+
+.footer-container .footer-col h4 {
+  font-size: 16px;
+  font-weight: 600; }
+}
+
+/*---------------------------------------------------------------------------------------------------------------
+                                                1000px - 1199px
+-----------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------
+                                                  NAV
+---------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+.logo {
+  float: left; }
+
+.nav-main {
+  width: 120%;
+  padding-top: 10px; }
+
+.nav-main ul {
+  width: 100%; }
+
+.nav-main ul li {
+  padding: 10px;
+  margin: 10px; }
+
+.nav-item:hover {
+  background-color: #D7DBE3; }
+
+/*--------------------------------------------------------------------------------------------------------------
+                                                  HEADER
+---------------------------------------------------------------------------------------------------------------*/ 
+.imgban .main-header {
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  font-size: 60px; }
+
+.header-container h1 {
+  position: relative;
+  top: 180px; }
+ /*--------------------------------------------------------------------------------------------------------------
+                                                   SECTION#1
+-----------------------------------------------------------------------------------------------------------------*/
+.main-paragraph {
+  width: 640px;
+  margin: auto;
+  text-align: center; }
+
+.img-section1 {
+  margin-left: 36px; }
+/*-----------------------------------------------SECTION#2---------------------------------------------------*/
+
+
+/*------------------------------------------------FOOTER------------------------------------------------------*/
+.footer-col .logo a {
+  font-size: 30px; }
+}
+
+/*----------------------------------------------------------------------------------------------------------------
+                                                1200px - 1600px
+-----------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+/*-------------------------------------------------NAV-----------------------------------------------------------*/
+.logo {
+  float: left; }
+
+.nav-main {
+  width: 120%;
+  padding-top: 10px; }
+
+.nav-main ul {
+  width: 100%; }
+
+.nav-main ul li {
+  padding: 10px;
+  margin: 10px; }
+
+.nav-item:hover {
+  background-color: #D7DBE3; }
+  /*-------------------------------------------------HEADER-----------------------------------------------------*/
+.header-container h1 {
+  position: relative;
+  top: 180px; }
+
+.logo {
+  float: left; }
+/*-------------------------------------------------SECTION#1-----------------------------------------------------*/
+.main-paragraph {
+  width: 640px;
+  margin: 20px auto 60px auto;
+  text-align: center; }
+
+.header-tree {
+  margin-top: 60px; }
+
+h5 {
+  text-align: center; }
+
+.col-section1 {
+  margin: auto 0px auto 80px; }
+
+.col-section1 p {
+  text-align: center; }
+
+.col-img {
+  overflow: hidden; 
+  width: 560px;
+  height: 320px; }
+
+.img-section1 {
+  max-width: 560px;
+  height: 320px;
+  transition: all 0.7s ease-in-out; 
+  margin-left: 40px; }
+
+.img-section1:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.food-section1 p {
+  text-align: center; }
+
+
+/*-------------------------------------------------SECTION#2-----------------------------------------------------*/
+.food-section1 h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600; }
+
+/*------------------------------------------------FOOTER------------------------------------------------------*/
+.footer-col .logo a{
+  font-size: 30px; }
+}
+
+/*----------------------------------------------------------------------------------------------------------------
+                                                1200px - 1600px
+-----------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1601px) {
+/*-------------------------------------------------NAV-----------------------------------------------------------*/
+.logo {
+  float: left; }
+
+.nav-main {
+  width: 120%;
+  padding-top: 10px; }
+
+.nav-main ul {
+  width: 100%; }
+
+.nav-main ul li {
+  padding: 10px;
+  margin: 10px; }
+
+.nav-item:hover {
+  background-color: #D7DBE3; }
+  /*-------------------------------------------------HEADER-----------------------------------------------------*/
+.header-container h1 {
+  position: relative;
+  top: 180px; }
+
+.logo {
+  float: left; }
+/*-------------------------------------------------SECTION#1-----------------------------------------------------*/
+.main-paragraph {
+  text-align: center;}
+
+.col-section1 {
+  padding-top: 6%; }
+
+ .col-img {
+  overflow: hidden; 
+  width: 800px;
+  height: 520px; }
+
+.img-section1 {
+  width: 800px;
+  height: 520px;
+  transition: all 0.7s ease-in-out; 
+  margin-left: 16%; }
+
+.img-section1:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+}
